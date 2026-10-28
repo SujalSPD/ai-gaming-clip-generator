@@ -1,0 +1,63 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Gaming videos and generated output
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+Finished_Shorts/
+outputs/
+temp/
+tmp/
+
+# Logs and caches
+*.log
+.cache/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+# Local executables and model weights
+ffmpeg.exe
+*.onnx
+
+# Generated analysis and transcription data
+pipeline_work/
+candidates.json
+candidates_left.json
+facecam_analysis.json
+transcript.json
+transcript_left.json
+transcript_left_en.json
+word_transcript.json
+
+# Generated previews and temporary diagnostics
+face_detection_test.jpg
+facecam_contact_sheet.jpg
+webcam_crop_diagnostic.jpg
+captions_test.ass
+
+# Redundant font archive
+BebasNeue.zip
+
+klnfskdlnjsklnskn
